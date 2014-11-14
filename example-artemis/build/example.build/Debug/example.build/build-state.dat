@@ -1,1213 +1,0 @@
-Texample
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/Info.plist /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/openFrameworks-Info.plist
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/main.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/ofApp.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/Component.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/Entity.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/TagManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/example.build/Debug/example.build/Objects-normal/i386/World.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/MacOS/exampleDebug normal i386
-cPhaseScriptExecution Run\ Script /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-cPBXCp /Users/chparsons/dev/openframeworks/git_ch/libs/glut/lib/osx/GLUT.framework bin/exampleDebug.app/Contents/Frameworks/GLUT.framework
-cTouch /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c000000005370E8D500000000000000AA
-t1399908565
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000052AFC2CB000000000000044C
-t1387250379
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c00000000532C555300000000000001DE
-t1395414355
-s478
-
-N/System/Library/Frameworks/AGL.framework/AGL
-c00000000538774820000000000019CF0
-t1401386114
-s105712
-
-N/System/Library/Frameworks/Accelerate.framework/Accelerate
-c000000005271FC2B00000000000065A0
-t1383201835
-s26016
-
-N/System/Library/Frameworks/AppKit.framework/AppKit
-c0000000053BBE831000000000249F9C0
-t1404823601
-s38402496
-
-N/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-c000000005271FC0E000000000000BC70
-t1383201806
-s48240
-
-N/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c00000000538774A600000000003E5EC0
-t1401386150
-s4087488
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000005271FC1100000000000066C0
-t1383201809
-s26304
-
-N/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-c0000000053BBE83200000000000EFDA0
-t1404823602
-s982432
-
-N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c0000000053BBE8320000000000688600
-t1404823602
-s6850048
-
-N/System/Library/Frameworks/CoreServices.framework/CoreServices
-c000000005271FC14000000000000D730
-t1383201812
-s55088
-
-N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-c000000005271FC150000000000080210
-t1383201813
-s524816
-
-N/System/Library/Frameworks/IOKit.framework/IOKit
-c00000000538774D500000000001460A0
-t1401386197
-s1335456
-
-N/System/Library/Frameworks/OpenGL.framework/OpenGL
-c00000000538774DC000000000002C960
-t1401386204
-s182624
-
-N/System/Library/Frameworks/QTKit.framework/QTKit
-c00000000538774E5000000000049EB50
-t1401386213
-s4844368
-
-N/System/Library/Frameworks/QuickTime.framework/QuickTime
-c00000000538774E50000000000322D20
-t1401386213
-s3288352
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app
-t1412366042
-s102
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/Frameworks/GLUT.framework
-t1412363874
-s204
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/Info.plist
-t1412364183
-s1099
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/MacOS/exampleDebug
-t1412366579
-s8262300
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/PkgInfo
-t1412364183
-s8
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Component.o
-t1412366576
-s4392
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o
-t1412366576
-s30792
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o
-t1412366576
-s104436
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o
-t1412366576
-s44120
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o
-t1412366577
-s101164
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Entity.o
-t1412366577
-s130600
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o
-t1412366577
-s159852
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o
-t1412366577
-s42544
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o
-t1412366578
-s107800
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o
-t1412366578
-s135472
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o
-t1412366578
-s104108
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o
-t1412366578
-s173668
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/TagManager.o
-t1412366578
-s108856
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/World.o
-t1412366578
-s147996
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/exampleDebug.LinkFileList
-c00000000542F00EF0000000000000910
-t1412366575
-s2320
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/main.o
-t1412366577
-s108492
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ofApp.o
-t1412366577
-s227948
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-c00000000542F00EF00000000000001A5
-t1412366575
-s421
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/openFrameworks-Info.plist
-c00000000542EF774000000000000029E
-t1412364148
-s670
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp
-c00000000542EF3690000000000000155
-t1412363113
-s341
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp
-c00000000542F000500000000000007FE
-t1412366341
-s2046
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp
-c00000000542EF263000000000000007B
-t1412362851
-s123
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp
-c00000000542EF26300000000000001E8
-t1412362851
-s488
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp
-c00000000542EF26300000000000002CB
-t1412362851
-s715
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp
-c00000000542EF2630000000000000113
-t1412362851
-s275
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp
-c00000000542EF2630000000000000451
-t1412362851
-s1105
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp
-c00000000542EF2630000000000000900
-t1412362851
-s2304
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp
-c00000000542EF263000000000000134C
-t1412362851
-s4940
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp
-c00000000542EF2630000000000000125
-t1412362851
-s293
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp
-c00000000542EF2630000000000000402
-t1412362851
-s1026
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp
-c00000000542EF26300000000000007C8
-t1412362851
-s1992
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp
-c00000000542EF2630000000000000358
-t1412362851
-s856
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp
-c00000000542EF26300000000000005C3
-t1412362851
-s1475
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp
-c00000000542EF2630000000000000348
-t1412362851
-s840
-
-N/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp
-c00000000542EF26300000000000007C2
-t1412362851
-s1986
-
-N/Users/chparsons/dev/openframeworks/git_ch/libs/glut/lib/osx/GLUT.framework
-c00000000531E099100000000000000CC
-t1394477457
-s204
-
-N/Users/chparsons/dev/openframeworks/git_ch/libs/glut/lib/osx/GLUT.framework/GLUT
-c000000005323A51A0000000000093570
-t1394844954
-s603504
-
-N/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
-c00000000542B62A50000000001D903A8
-t1412129445
-s30999464
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies4147b36f38dfb941^7c27b66f38dfb941^---0#1#1#--18"Check dependencies36"99F5EBAD-33C4-4112-BB2D-23E34F2788ED-
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/Component.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059375.722492
-e434059376.121384
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/Component.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp244"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/Component.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerd047b96f38dfb941^ec141f7038dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@94"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp0000000000000000^3593"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/Component.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Component.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Component.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Component.o36"31F322A0-3ECA-4347-B3DF-34F6F152AEE1-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059375.726069
-e434059376.212376
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp252"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler2409ba6f38dfb941^6c97367038dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@98"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp0000000000000000^3617"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o36"DEF62CF0-A31C-4826-BB49-039080B3287D-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059376.122716
-e434059376.595510
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp266"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler26c51f7038dfb941^e272987038dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@105"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp0000000000000000^3659"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o36"A679AD3C-3BE6-47E6-832C-A3E7DAB6A6B3-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059376.212773
-e434059376.635098
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp284"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler3c50377038dfb941^4c8ba27038dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@114"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp0000000000000000^3713"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o36"7698357B-A643-4A67-8EBF-31C8718E29F9-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059376.597013
-e434059377.010019
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp264"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4df5987038dfb941^6495027138dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@104"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp0000000000000000^3653"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o36"96A69B42-9A3D-486B-B4F1-7F75BFA7240A-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/Entity.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059376.635878
-e434059377.091494
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/Entity.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp238"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/Entity.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler21e6a27038dfb941^d367177138dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@91"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp0000000000000000^3575"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/Entity.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Entity.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Entity.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Entity.o36"0FE61E0F-0698-435C-A474-C74F6562513C-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059377.011039
-e434059377.508398
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp252"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler01f9027138dfb941^d767827138dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@98"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp0000000000000000^3617"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o36"753878EF-F518-4C02-A73C-3E0502F411DC-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059377.092252
-e434059377.493636
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp270"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilera5bb177138dfb941^b5547e7138dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@107"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp0000000000000000^3671"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o36"38D0B52B-2A5F-4F48-9D38-E178B8264A08-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059377.494370
-e434059378.041009
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp250"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerdaac7e7138dfb941^30f20a7238dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@97"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp0000000000000000^3611"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o36"966C3DDA-0979-4B77-B266-71A6A806E1C6-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059377.508801
-e434059378.144232
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp250"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilere15d827138dfb941^40fc247238dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@97"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp0000000000000000^3611"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o36"FF5164FB-180B-4050-9963-2FE4D83ABE28-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059377.729423
-e434059378.328986
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp258"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerc2dcba7138dfb941^c040547238dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@101"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp0000000000000000^3635"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o36"781DEE1B-39AA-4DF3-8FF2-B3ABE8746831-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059377.858553
-e434059378.510709
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp252"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler4feadb7138dfb941^f5bd827238dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@98"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp0000000000000000^3617"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o36"89CE4765-E497-477F-AED8-4E166BA14217-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/TagManager.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059378.041621
-e434059378.613675
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/TagManager.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp246"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/TagManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerf8c40a7238dfb941^f6239d7238dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@95"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp0000000000000000^3599"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/TagManager.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/TagManager.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/TagManager.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/TagManager.o36"F5AA4391-EEA3-4A28-B4C3-AABE0C1C8620-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/World.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059378.144715
-e434059378.671119
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/World.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp236"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/World.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilercc29257238dfb941^9cdcab7238dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@90"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp0000000000000000^3569"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/World.o [1m/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/World.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/World.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/World.o36"EE140387-8A75-4B1C-9BE7-599C020ADFB9-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/main.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059375.715349
-e434059377.728393
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/main.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/ofMain.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofConstants.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/glew/include/GL/glew.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/tess2/include/tesselator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofFileUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/File.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Foundation.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Config.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Platform.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Platform_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Bugcheck.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Types.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Timestamp.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/File_UNIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofLog.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofTypes.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofColor.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofMath.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofPoint.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVec3f.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVec2f.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVec4f.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Mutex.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Exception.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ScopedLock.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Mutex_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofSystemUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofThread.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AtomicCounter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Thread.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Thread_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Runnable.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SignalHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Event.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Event_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/RefCountedObject.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AutoPtr.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofURLFileLoader.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/events/ofEvents.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/events/ofEventUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AbstractEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SingletonHolder.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SharedPtr.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveResult.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveMethod.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveRunnable.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveStarter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ThreadPool.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityStrategy.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/NotificationStrategy.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AbstractPriorityDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AbstractDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityExpire.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/FunctionPriorityDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/events/ofDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Path.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofBaseTypes.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofRectangle.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofMatrix4x4.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofQuaternion.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofMesh.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofGLUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofPixels.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofXml.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofParameter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofParameterGroup.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Any.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Document.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XML.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/AbstractContainerNode.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/AbstractNode.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Node.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/EventTarget.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMObject.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLString.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/NamespaceSupport.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/MutationEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Event.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DocumentEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Element.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/Name.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/NamePool.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AutoReleasePool.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DocumentFragment.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMParser.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/SAXParser.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/XMLReader.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/ParserEngine.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/expat.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/expat_external.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/Locator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/TextEncoding.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMException.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLException.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/SAXException.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLWriter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/ContentHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/LexicalHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/DTDHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/StreamConverter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/UnbufferedStreamBuf.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/StreamUtil.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMWriter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Attr.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Text.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/CharacterData.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NodeIterator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NodeFilter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NamedNodeMap.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/ChildNodesList.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NodeList.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVectorMath.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofMatrix3x3.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/communication/ofSerial.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/communication/ofArduino.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofFbo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofTexture.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofVboMesh.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofVbo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofGLRenderer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofPolyline.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofGraphics.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofMatrixStack.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofLight.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofNode.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/of3dUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/of3dGraphics.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/of3dPrimitives.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofMaterial.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofShader.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofGLProgrammableRenderer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofCairoRenderer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-features.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-pdf.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-version.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-deprecated.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-svg.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofPath.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofTessellator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofImage.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofRendererCollection.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofTrueTypeFont.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/app/ofBaseApp.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/app/ofAppRunner.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/app/ofAppBaseWindow.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofSoundStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofBaseSoundStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofRtAudioSoundStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofSoundPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofBaseSoundPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofFmodSoundPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_codec.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_dsp.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_memoryinfo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_errors.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofVideoGrabber.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofQTKitGrabber.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofVideoPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofQTKitPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofCamera.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofEasyCam.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp164"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/main.o [1msrc/main.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerdb4eb76f38dfb941^9f21bc7138dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@88"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp0000000000000000^3492"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/main.o [1msrc/main.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/main.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/main.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/main.o36"91D854E6-7357-400E-8CAA-CF431AA764D5-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CCompileC build/example.build/Debug/example.build/Objects-normal/i386/ofApp.o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s434059375.718503
-e434059377.857198
-r1
-xCompileC
-xbuild/example.build/Debug/example.build/Objects-normal/i386/ofApp.o
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp
-xnormal
-xi386
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/ofMain.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofConstants.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/glew/include/GL/glew.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/tess2/include/tesselator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofFileUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/File.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Foundation.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Config.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Platform.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Platform_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Bugcheck.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Types.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Timestamp.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/File_UNIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofLog.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofTypes.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofColor.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofMath.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofPoint.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVec3f.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVec2f.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVec4f.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Mutex.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Exception.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ScopedLock.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Mutex_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofSystemUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofThread.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AtomicCounter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Thread.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Thread_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Runnable.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SignalHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Event.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Event_POSIX.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/RefCountedObject.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AutoPtr.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofURLFileLoader.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/events/ofEvents.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/events/ofEventUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AbstractEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SingletonHolder.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SharedPtr.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveResult.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveMethod.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveRunnable.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ActiveStarter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/ThreadPool.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityStrategy.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/NotificationStrategy.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AbstractPriorityDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AbstractDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/PriorityExpire.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/FunctionPriorityDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/events/ofDelegate.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Path.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofBaseTypes.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofRectangle.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofMatrix4x4.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofQuaternion.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofMesh.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofGLUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofPixels.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofXml.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofParameter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/types/ofParameterGroup.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/Any.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Document.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XML.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/AbstractContainerNode.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/AbstractNode.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Node.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/EventTarget.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMObject.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLString.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/NamespaceSupport.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/MutationEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Event.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DocumentEvent.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Element.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/Name.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/NamePool.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/AutoReleasePool.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DocumentFragment.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMParser.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/SAXParser.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/XMLReader.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/ParserEngine.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/expat.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/expat_external.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/Locator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/TextEncoding.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMException.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLException.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/SAXException.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/XML/XMLWriter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/ContentHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/LexicalHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/SAX/DTDHandler.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/StreamConverter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/UnbufferedStreamBuf.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/StreamUtil.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/DOMWriter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Attr.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/Text.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/CharacterData.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NodeIterator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NodeFilter.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NamedNodeMap.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/ChildNodesList.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/include/Poco/DOM/NodeList.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofVectorMath.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/math/ofMatrix3x3.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/communication/ofSerial.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/communication/ofArduino.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofFbo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofTexture.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofVboMesh.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofVbo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofGLRenderer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofPolyline.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofGraphics.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/utils/ofMatrixStack.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofLight.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofNode.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/of3dUtils.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/of3dGraphics.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/of3dPrimitives.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofMaterial.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofShader.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/gl/ofGLProgrammableRenderer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofCairoRenderer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-features.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-pdf.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-version.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-deprecated.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/include/cairo/cairo-svg.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofPath.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofTessellator.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofImage.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofRendererCollection.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/graphics/ofTrueTypeFont.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/app/ofBaseApp.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/app/ofAppRunner.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/app/ofAppBaseWindow.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofSoundStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofBaseSoundStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofRtAudioSoundStream.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofSoundPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofBaseSoundPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/sound/ofFmodSoundPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_codec.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_dsp.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_memoryinfo.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/include/fmod_errors.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofVideoGrabber.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofQTKitGrabber.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofVideoPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/video/ofQTKitPlayer.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofCamera.h
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworks/3d/ofEasyCam.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Artemis.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/BitSize.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityProcessingSystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ImmutableBag.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Component.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentTypeManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TypeInfoComparator.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentType.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/ComponentMapper.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/EntityManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/World.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/TagManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/GroupManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemBitManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntityProcessingSystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/DelayedEntitySystem.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/SystemManager.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/libs/Artemis/Entity.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/systems.h
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/components.h
-oclang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp166"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/ofApp.o [1msrc/ofApp.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler213ab86f38dfb941^6c5cdb7138dfb941^-70"clang: [0;1;35mwarning: [0m[1m-lpthread: 'linker' input unused[0m-0#0#1#-19%DVTDocumentLocation2@89"file:///Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp0000000000000000^3498"[1mCompileC[0m build/example.build/Debug/example.build/Objects-normal/i386/ofApp.o [1msrc/ofApp.cpp[0m normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=89 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -stdlib=libstdc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wno-unused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Wno-invalid-offsetof -mmacosx-version-min=10.6 -g -mssse3 -Wno-sign-conversion -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug.hmap -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include -I../../../libs/openFrameworks -I../../../libs/openFrameworks/.settings -I../../../libs/openFrameworks/3d -I../../../libs/openFrameworks/app -I../../../libs/openFrameworks/communication -I../../../libs/openFrameworks/events -I../../../libs/openFrameworks/gl -I../../../libs/openFrameworks/graphics -I../../../libs/openFrameworks/math -I../../../libs/openFrameworks/sound -I../../../libs/openFrameworks/types -I../../../libs/openFrameworks/utils -I../../../libs/openFrameworks/video -I../../../libs/poco/include -I../../../libs/freetype/include -I../../../libs/freetype/include/freetype2 -I../../../libs/fmodex/include -I../../../libs/glew/include -I../../../libs/FreeImage/include -I../../../libs/tess2/include -I../../../libs/cairo/include/cairo -I../../../libs/rtAudio/include -I../../../libs/glfw/include -I../../../addons/ofxArtemis/libs -I../../../addons/ofxArtemis/libs/Artemis -I../../../addons/ofxArtemis/src -Isrc -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources/i386 -I/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -D__MACOSX_CORE__ -lpthread -mtune=native -MMD -MT dependencies -MF /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ofApp.d --serialize-diagnostics /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ofApp.dia -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/src/ofApp.cpp -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ofApp.o36"DD85420C-C95E-4A47-96A3-101C8E0FB675-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CLd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/MacOS/exampleDebug normal i386
-s434059378.674075
-e434059379.658608
-r1
-xLd
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/MacOS/exampleDebug
-xnormal
-xi386
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/exampleDebug.LinkFileList
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/crt1.10.6.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/main.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ofApp.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Component.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentType.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/ComponentTypeManager.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntityProcessingSystem.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/DelayedEntitySystem.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/Entity.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityManager.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntityProcessingSystem.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/EntitySystem.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/GroupManager.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemBitManager.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/SystemManager.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/TagManager.o
-d/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/World.o
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoCrypto.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoData.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoDataODBC.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoDataSQLite.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoFoundation.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoNet.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoNetSSL.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoUtil.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoXML.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/poco/lib/osx/PocoZip.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/tess2/lib/osx/tess2.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/glew/lib/osx/glew.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/lib/osx/cairo-script-interpreter.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/lib/osx/cairo.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/cairo/lib/osx/pixman-1.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/fmodex/lib/osx/libfmodex.dylib
-d/Users/chparsons/dev/openframeworks/git_ch/libs/rtAudio/lib/osx/rtAudio.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openssl/lib/osx/crypto.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openssl/lib/osx/ssl.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/glfw/lib/osx/libglfw3.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/FreeImage/lib/osx/freeimage.a
-d/Users/chparsons/dev/openframeworks/git_ch/libs/freetype/lib/osx/freetype.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QTKit.framework/QTKit
-d/Users/chparsons/dev/openframeworks/git_ch/libs/glut/lib/osx/GLUT.framework/GLUT
-d/Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AGL.framework/AGL
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuickTime.framework/QuickTime
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libstdc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Carbon
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libgcc_s.1.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CarbonSound.framework/Versions/A/CarbonSound
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HTMLRendering.framework/Versions/A/HTMLRendering
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/NavigationServices.framework/Versions/A/NavigationServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Link /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/MacOS/exampleDebug71"[1mLd[0m bin/exampleDebug.app/Contents/MacOS/exampleDebug normal i38601a2ac7238dfb941^569aa87338dfb941^---0#0#1#--2485"[1mLd[0m bin/exampleDebug.app/Contents/MacOS/exampleDebug normal i386    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export MACOSX_DEPLOYMENT_TARGET=10.6    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin -F/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx -filelist /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/exampleDebug.LinkFileList -mmacosx-version-min=10.6 -dead_strip ../../../libs/poco/lib/osx/PocoCrypto.a ../../../libs/poco/lib/osx/PocoData.a ../../../libs/poco/lib/osx/PocoDataODBC.a ../../../libs/poco/lib/osx/PocoDataSQLite.a ../../../libs/poco/lib/osx/PocoFoundation.a ../../../libs/poco/lib/osx/PocoNet.a ../../../libs/poco/lib/osx/PocoNetSSL.a ../../../libs/poco/lib/osx/PocoUtil.a ../../../libs/poco/lib/osx/PocoXML.a ../../../libs/poco/lib/osx/PocoZip.a ../../../libs/tess2/lib/osx/tess2.a ../../../libs/glew/lib/osx/glew.a ../../../libs/cairo/lib/osx/cairo-script-interpreter.a ../../../libs/cairo/lib/osx/cairo.a ../../../libs/cairo/lib/osx/pixman-1.a ../../../libs/fmodex/lib/osx/libfmodex.dylib ../../../libs/rtAudio/lib/osx/rtAudio.a ../../../libs/openssl/lib/osx/crypto.a ../../../libs/openssl/lib/osx/ssl.a ../../../libs/glfw/lib/osx/libglfw3.a ../../../libs/FreeImage/lib/osx/freeimage.a ../../../libs/freetype/lib/osx/freetype.a -stdlib=libstdc++ -framework Accelerate -framework QTKit -framework GLUT /Users/chparsons/dev/openframeworks/git_ch/libs/openFrameworksCompiled/lib/osx/openFrameworksDebug.a -framework AGL -framework ApplicationServices -framework AudioToolbox -framework CoreAudio -framework CoreFoundation -framework CoreServices -framework OpenGL -framework QuickTime -framework AppKit -framework Cocoa -framework IOKit -framework CoreVideo -Xlinker -dependency_info -Xlinker /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/exampleDebug_dependency_info.dat -o /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/MacOS/exampleDebug36"5C9C7659-DC4D-47F5-87DA-CDBFB94263FA-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CPBXCp /Users/chparsons/dev/openframeworks/git_ch/libs/glut/lib/osx/GLUT.framework bin/exampleDebug.app/Contents/Frameworks/GLUT.framework
-r0
-
-CPhaseScriptExecution Run\ Script /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-s434059379.660538
-e434059379.704814
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'115"[1mPhaseScriptExecution[0m Run\ Script build/example.build/Debug/example.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh800baa7338dfb941^9371b47338dfb941^---0#0#1#--27358"[1mPhaseScriptExecution[0m Run\ Script build/example.build/Debug/example.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export ACTION=build    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=chparsons    export ALWAYS_SEARCH_USER_PATHS=YES    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=i386    export ARCHS_STANDARD=x86_64    export ARCHS_STANDARD_32_64_BIT="x86_64 i386"    export ARCHS_STANDARD_32_BIT=i386    export ARCHS_STANDARD_64_BIT=x86_64    export ARCHS_STANDARD_INCLUDING_64_BIT=x86_64    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build    export BUILD_ROOT=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin    export CACHE_ROOT=/var/folders/yf/ct3bwv7s0813ylghvwq_q3zr0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CCHROOT=/var/folders/yf/ct3bwv7s0813ylghvwq_q3zr0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_CXX_LIBRARY=libstdc++    export CLASS_FILE_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app    export CODE_SIGNING_ALLOWED=YES    export COLOR_DIAGNOSTICS=YES    export COMBINE_HIDPI_IMAGES=YES    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/yf/ct3bwv7s0813ylghvwq_q3zr0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/CompositeSDKs    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin    export CONFIGURATION_TEMP_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug    export CONTENTS_FOLDER_PATH=exampleDebug.app/Contents    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=i386    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=YES    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources    export DERIVED_FILE_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH=exampleDebug.app/Contents/Resources/English.lproj/Documentation    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/example.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME=exampleDebug.app.dSYM    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin    export EMBEDDED_PROFILE_NAME=embedded.provisionprofile    export ENABLE_HEADER_DEPENDENCIES=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH=exampleDebug.app/Contents/Executables    export EXECUTABLE_FOLDER_PATH=exampleDebug.app/Contents/MacOS    export EXECUTABLE_NAME=exampleDebug    export EXECUTABLE_PATH=exampleDebug.app/Contents/MacOS/exampleDebug    export FILE_LIST=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH=exampleDebug.app/Contents/Frameworks    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin  \"/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx\""    export FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1="\"/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/../../../libs/glut/lib/osx\""    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME=exampleDebug.app    export GCC3_VERSION=3.3    export GCC_AUTO_VECTORIZATION=YES    export GCC_DYNAMIC_NO_PIC=NO    export GCC_ENABLE_SSE3_EXTENSIONS=YES    export GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS=YES    export GCC_GENERATE_DEBUGGING_SYMBOLS=YES    export GCC_INLINES_ARE_PRIVATE_EXTERN=NO    export GCC_MODEL_TUNING=NONE    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_SYMBOLS_PRIVATE_EXTERN=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS=YES    export GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO=NO    export GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL=NO    export GCC_WARN_UNINITIALIZED_AUTOS=NO    export GCC_WARN_UNUSED_VALUE=NO    export GCC_WARN_UNUSED_VARIABLE=NO    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_CAIRO="\"../../../libs/cairo/include/cairo\""    export HEADER_FMODEX="\"../../../libs/fmodex/include\""    export HEADER_FREEIMAGE="\"../../../libs/FreeImage/include\""    export HEADER_FREETYPE="\"../../../libs/freetype/include\""    export HEADER_FREETYPE2="\"../../../libs/freetype/include/freetype2\""    export HEADER_GLEW="\"../../../libs/glew/include\""    export HEADER_GLFW="\"../../../libs/glfw/include\""    export HEADER_OF="\"../../../libs/openFrameworks/**\""    export HEADER_POCO="\"../../../libs/poco/include\""    export HEADER_RTAUDIO="\"../../../libs/rtAudio/include\""    export HEADER_SEARCH_PATHS="/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/include \"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\" ../../../addons/ofxArtemis/libs ../../../addons/ofxArtemis/libs/Artemis ../../../addons/ofxArtemis/src src"    export HEADER_TESS2="\"../../../libs/tess2/include\""    export ICON=icon-debug.icns    export ICONV=/usr/bin/iconv    export ICON_FILE=../../../libs/openFrameworksCompiled/project/osx/icon-debug.icns    export ICON_FILE_PATH=../../../libs/openFrameworksCompiled/project/osx/    export ICON_NAME_DEBUG=icon-debug.icns    export ICON_NAME_RELEASE=icon.icns    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=openFrameworks-Info.plist    export INFOPLIST_OUTPUT_FORMAT=same-as-input    export INFOPLIST_PATH=exampleDebug.app/Contents/Info.plist    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH=exampleDebug.app/Contents/Resources/English.lproj/InfoPlist.strings    export INSTALL_DIR=/tmp/example.dst/Users/chparsons/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=chparsons    export INSTALL_PATH=/Users/chparsons/Applications    export INSTALL_ROOT=/tmp/example.dst    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH=exampleDebug.app/Contents/Resources/Java    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/exampleDebug_dependency_info.dat    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/exampleDebug-LinkMap-normal-i386.txt    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin                                                              "    export LIB_CAIRO1="\"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\""    export LIB_CAIRO2="\"../../../libs/cairo/lib/osx/cairo.a\""    export LIB_CAIRO3="\"../../../libs/cairo/lib/osx/pixman-1.a\""    export LIB_FMODEX="\"../../../libs/fmodex/lib/osx/libfmodex.dylib\""    export LIB_FREEIMAGE="\"../../../libs/FreeImage/lib/osx/freeimage.a\""    export LIB_FREETYPE="\"../../../libs/freetype/lib/osx/freetype.a\""    export LIB_GLEW="\"../../../libs/glew/lib/osx/glew.a\""    export LIB_GLFW="\"../../../libs/glfw/lib/osx/libglfw3.a\""    export LIB_GLUT="\"../../../libs/glut/lib/osx/GLUT.framework/Versions/A/GLUT\""    export LIB_OPENSSL1="\"../../../libs/openssl/lib/osx/crypto.a\""    export LIB_OPENSSL2="\"../../../libs/openssl/lib/osx/ssl.a\""    export LIB_POCO_1="\"../../../libs/poco/lib/osx/PocoCrypto.a\""    export LIB_POCO_10="\"../../../libs/poco/lib/osx/PocoZip.a\""    export LIB_POCO_2="\"../../../libs/poco/lib/osx/PocoData.a\""    export LIB_POCO_3="\"../../../libs/poco/lib/osx/PocoDataODBC.a\""    export LIB_POCO_4="\"../../../libs/poco/lib/osx/PocoDataSQLite.a\""    export LIB_POCO_5="\"../../../libs/poco/lib/osx/PocoFoundation.a\""    export LIB_POCO_6="\"../../../libs/poco/lib/osx/PocoNet.a\""    export LIB_POCO_7="\"../../../libs/poco/lib/osx/PocoNetSSL.a\""    export LIB_POCO_8="\"../../../libs/poco/lib/osx/PocoUtil.a\""    export LIB_POCO_9="\"../../../libs/poco/lib/osx/PocoXML.a\""    export LIB_RTAUDIO="\"../../../libs/rtAudio/lib/osx/rtAudio.a\""    export LIB_TESS="\"../../../libs/tess2/lib/osx/tess2.a\""    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_i386=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal/i386/exampleDebug.LinkFileList    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH=exampleDebug.app/Contents/Resources/English.lproj    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MACOSX_DEPLOYMENT_TARGET=10.6    export MAC_OS_X_PRODUCT_BUILD_VERSION=13E28    export MAC_OS_X_VERSION_ACTUAL=1094    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0904    export NATIVE_ARCH=i386    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJECT_FILE_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects    export OBJECT_FILE_DIR_normal=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Objects-normal    export OBJROOT=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build    export OF_CORE_HEADERS="\"../../../libs/openFrameworks/**\" \"../../../libs/poco/include\" \"../../../libs/freetype/include\" \"../../../libs/freetype/include/freetype2\" \"../../../libs/fmodex/include\" \"../../../libs/glew/include\" \"../../../libs/FreeImage/include\" \"../../../libs/tess2/include\" \"../../../libs/cairo/include/cairo\" \"../../../libs/rtAudio/include\" \"../../../libs/glfw/include\""    export OF_CORE_LIBS="\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/freetype/lib/osx/freetype.a\""    export OF_PATH=../../..    export ONLY_ACTIVE_ARCH=NO    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export OTHER_CPLUSPLUSFLAGS="-D__MACOSX_CORE__ -lpthread -mtune=native"    export OTHER_LDFLAGS="\"../../../libs/poco/lib/osx/PocoCrypto.a\" \"../../../libs/poco/lib/osx/PocoData.a\" \"../../../libs/poco/lib/osx/PocoDataODBC.a\" \"../../../libs/poco/lib/osx/PocoDataSQLite.a\" \"../../../libs/poco/lib/osx/PocoFoundation.a\" \"../../../libs/poco/lib/osx/PocoNet.a\" \"../../../libs/poco/lib/osx/PocoNetSSL.a\" \"../../../libs/poco/lib/osx/PocoUtil.a\" \"../../../libs/poco/lib/osx/PocoXML.a\" \"../../../libs/poco/lib/osx/PocoZip.a\" \"../../../libs/tess2/lib/osx/tess2.a\" \"../../../libs/glew/lib/osx/glew.a\" \"../../../libs/cairo/lib/osx/cairo-script-interpreter.a\" \"../../../libs/cairo/lib/osx/cairo.a\" \"../../../libs/cairo/lib/osx/pixman-1.a\" \"../../../libs/fmodex/lib/osx/libfmodex.dylib\" \"../../../libs/rtAudio/lib/osx/rtAudio.a\" \"../../../libs/openssl/lib/osx/crypto.a\" \"../../../libs/openssl/lib/osx/ssl.a\" \"../../../libs/glfw/lib/osx/libglfw3.a\" \"../../../libs/FreeImage/lib/osx/freeimage.a\" \"../../../libs/freetype/lib/osx/freetype.a\""    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Applications/Adobe/AIRSDK_Compiler/bin:/opt/ant/bin:/opt/subversion/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH=exampleDebug.app/Contents/pbdevelopment.plist    export PFE_FILE_C_DIALECTS=c++    export PKGINFO_FILE_PATH=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/PkgInfo    export PKGINFO_PATH=exampleDebug.app/Contents/PkgInfo    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform    export PLATFORM_NAME=macosx    export PLATFORM_PREFERRED_ARCH=x86_64    export PLATFORM_PRODUCT_BUILD_VERSION=5B1008    export PLIST_FILE_OUTPUT_FORMAT=same-as-input    export PLUGINS_FOLDER_PATH=exampleDebug.app/Contents/PlugIns    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH=exampleDebug.app/Contents/PrivateHeaders    export PRODUCT_NAME=exampleDebug    export PRODUCT_SETTINGS_PATH=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/openFrameworks-Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=example    export PROJECT_DERIVED_FILE_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/DerivedSources    export PROJECT_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export PROJECT_FILE_PATH=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/example.xcodeproj    export PROJECT_NAME=example    export PROJECT_TEMP_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build    export PROJECT_TEMP_ROOT=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build    export PUBLIC_HEADERS_FOLDER_PATH=exampleDebug.app/Contents/Headers    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export REZ_COLLECTOR_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH=exampleDebug.app/Contents/Resources/Scripts    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk    export SDK_NAME=macosx10.9    export SDK_PRODUCT_BUILD_VERSION=13C64    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=NO    export SHARED_DERIVED_FILE_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH=exampleDebug.app/Contents/SharedFrameworks    export SHARED_PRECOMPS_DIR=/var/folders/yf/ct3bwv7s0813ylghvwq_q3zr0000gp/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH=exampleDebug.app/Contents/SharedSupport    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export SRCROOT=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    export STRINGS_FILE_OUTPUT_ENCODING=UTF-16    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_PLATFORMS=macosx    export SYMROOT=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETNAME=example    export TARGET_BUILD_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin    export TARGET_NAME=example    export TARGET_TEMP_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build    export TEMP_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build    export TEMP_FILES_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build    export TEMP_FILE_DIR=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build    export TEMP_ROOT=/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=502    export UNLOCALIZED_RESOURCES_FOLDER_PATH=exampleDebug.app/Contents/Resources    export UNSTRIPPED_PRODUCT=NO    export USER=chparsons    export USER_APPS_DIR=/Users/chparsons/Applications    export USER_LIBRARY_DIR=/Users/chparsons/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="i386 x86_64"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH=exampleDebug.app/Contents/version.plist    export VERSION_INFO_BUILDER=chparsons    export VERSION_INFO_FILE=exampleDebug_vers.c    export VERSION_INFO_STRING="\"@(#)PROGRAM:exampleDebug  PROJECT:example-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME=exampleDebug.app    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B1008    export XCODE_VERSION_ACTUAL=0511    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH=exampleDebug.app/Contents/XPCServices    export YACC=yacc    export arch=i386    export diagnostic_message_length=89    export variant=normal    /bin/sh -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/build/example.build/Debug/example.build/Script-E4B6FFFD0C3F9AB9008CF71C.sh36"40A55977-B618-4BA5-B96A-9644347BD296-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-
-CProcessInfoPlistFile /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app/Contents/Info.plist /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/openFrameworks-Info.plist
-r0
-
-CTouch /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app
-s434059379.706519
-e434059379.711065
-r1
-xTouch
-x/Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Touch /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app34"[1mTouch[0m bin/exampleDebug.app30f0b47338dfb941^520ab67338dfb941^---0#0#1#--223"[1mTouch[0m bin/exampleDebug.app    cd /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example    /usr/bin/touch -c /Users/chparsons/dev/openframeworks/git_ch/addons/ofxArtemis/example/bin/exampleDebug.app36"669BC9E4-1487-4E7E-9B7D-21E8C1B601D7-
-bC3F08290-C7EC-4769-B72F-E125D45BF313
-

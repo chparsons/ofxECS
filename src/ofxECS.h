@@ -1,0 +1,9 @@
+#pragma once
+#include "ECS.h"
+#include "ECmaker.h"
+#include "ECScomponent.h"
+#include "ECSsystem.h"
+#include "params/ECSparams.h"
+#include "params/ECSparamsSender.h"
+#include "params/ParamID.h"
+#include "ComponentFactory.h"

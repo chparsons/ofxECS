@@ -1,5 +1,5 @@
 {
-  "entities": [
+  "engine": [
 
     {
       "id": "core",
@@ -30,15 +30,15 @@
     }, 
 
     {
-      "id": "physics_stuff",
+      "id": "physics",
       "components": [
-        { "id": "physics" },
+        { "id": "physics_engine" },
         { "id": "particle_system" }
       ]
     }
   ],
 
-  "game_actors": [
+  "entities": [
 
     {
       "id": "player", 

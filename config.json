@@ -1,0 +1,55 @@
+{
+  "entities": [
+
+    {
+      "id": "core",
+      "components": [
+        { "id": "my_component1" },
+        { 
+          "id": "my_component2",
+          "data": {
+            "some": "test",
+            "datum": 0.33
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "output",
+      "components": [
+        { "id": "render" } 
+      ]
+    },
+
+    {
+      "id": "input",
+      "components": [
+        { "id": "camera" }
+      ]
+    }, 
+
+    {
+      "id": "physics_stuff",
+      "components": [
+        { "id": "physics" },
+        { "id": "particle_system" }
+      ]
+    }
+  ],
+
+  "game_actors": [
+
+    {
+      "id": "player", 
+      "components": [] 
+    },
+
+    {
+      "id": "boss", 
+      "components": [] 
+    }
+
+  ]
+
+}

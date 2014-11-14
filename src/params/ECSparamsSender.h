@@ -3,7 +3,6 @@
 #include "ofMain.h"
 #include "ofxJSON.h"
 #include "oscParamSender.h"
-//#include "jsonParams.h"
 
 class ECSparamsSender
 {
@@ -37,7 +36,7 @@ class ECSparamsSender
         return;
       }
 
-      // array of [val, min, max]
+      // array of [val, min, max] for numbers
       if ( jval.isArray() ) 
       {
         if ( jval.size() != 3 )
@@ -58,7 +57,7 @@ class ECSparamsSender
         }
       }
 
-      // value, not array
+      // single value
       else
       {
 
@@ -71,36 +70,24 @@ class ECSparamsSender
           osc_params[param_id] = osc_param;
         } 
 
-        else if ( jval.isString() ) 
-        {
-          shared_ptr< oscParamSender<string> > osc_param( new oscParamSender<string>() );
-          string val = jval.asString();
-          osc_param->set(sender, param_id, val);
-          params.add( osc_param->param() );
-          osc_params[param_id] = osc_param;
-        }
+        //else if ( jval.isString() ) 
+        //{
+          //shared_ptr< oscParamSender<string> > osc_param( new oscParamSender<string>() );
+          //string val = jval.asString();
+          //osc_param->set(sender, param_id, val);
+          //params.add( osc_param->param() );
+          //osc_params[param_id] = osc_param;
+        //}
+
       }
-      
+
     };
 
   private:
 
     ofxOscSender* sender;
-    //jsonParams jsonp;
 
     map< string, shared_ptr<oscParamSenderAbstract> > osc_params;
-
-    //template<typename T>
-    //shared_ptr< oscParamSender<T> > make_osc_param( string param_id, const Json::Value& jarr ) 
-    //{
-      //shared_ptr< oscParamSender<T> > osc_param( new oscParamSender<T>() );
-      //T val; 
-      //val = jsonp.get_value<T>( jarr[0] );
-      //T min = jsonp.get_value<T>( jarr[1] );
-      //T max = jsonp.get_value<T>( jarr[2] );
-      //osc_param->set( sender, param_id, val, min, max );
-    //return osc_param;
-  //};
 
 };
 

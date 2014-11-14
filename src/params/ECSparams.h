@@ -3,7 +3,6 @@
 #include "ofMain.h"
 #include "ofxJSON.h"
 #include "ofxKeyValueOSC.h"
-//#include "jsonParams.h"
 
 class ECSparams
 {
@@ -55,12 +54,10 @@ class ECSparams
 
     ofParameterGroup params;
     ofxKeyValueOSC receiver; 
-    //jsonParams jsonp;
 
     template<typename T>
     ofParameter<T>& set( ofParameter<T>& param, string param_id, const Json::Value& jval )
     {
-      T val;
 
       if ( jval.isArray() )
       {
@@ -71,68 +68,44 @@ class ECSparams
           return;
         }
 
+        if ( jval[0].isNumeric() ) 
+        {
+          float val = jval[0].asFloat();
+          float min = jval[1].asFloat();
+          float max = jval[2].asFloat();
+          return param.set(param_id, val, min, max);
+        } 
 
-        //FIXME soportar string y otros
-        val = jval[0].asFloat();
-        T min = jval[1].asFloat();
-        T max = jval[2].asFloat();
-
-
-        //if ( jval[0].isDouble() ) 
-        //{
-          //val = jval[0].asFloat();
-          //T min = jval[1].asFloat();
-          //T max = jval[2].asFloat();
-        //} 
-
-        //else if ( jval[0].isIntegral() ) 
-        //{
-          //val = jval[0].asInt();
-          //T min = jval[1].asInt();
-          //T max = jval[2].asInt();
-        //}
-
-        //else if ( jval[0].isBool() ) 
-        //{
-          //val = jval[0].asBool();
-          //T min = jval[1].asBool();
-          //T max = jval[2].asBool();
-        //}
-
-        //else if ( jval[0].isString() ) 
-        //{
-          //val = jval[0].asString();
-          //T min = jval[1].asString();
-          //T max = jval[2].asString();
-        //}
-
-        //val = jsonp.get_value<T>( jval[0] );
-        //T min = jsonp.get_value<T>( jval[1] );
-        //T max = jsonp.get_value<T>( jval[2] );
-
-        return param.set( param_id, val, min, max );
+        else if ( jval[0].isBool() ) 
+        {
+          bool val = jval[0].asBool();
+          bool  min = jval[1].asBool();
+          bool  max = jval[2].asBool();
+          return param.set(param_id, val, min, max);
+        }
       }
 
       else
       {
-        //FIXME soportar string y otros
-        val = jval.asFloat();
 
-        //if ( jval.isDouble() ) 
-          //val = jval.asFloat();
+        if ( jval.isNumeric() ) 
+        {
+          float val = jval.asFloat();
+          return param.set( param_id, val );
+        }
 
-        //else if ( jval.isIntegral() ) 
-          //val = jval.asInt();
-
-        //else if ( jval.isBool() ) 
-          //val = jval.asBool();
+        else if ( jval.isBool() ) 
+        {
+          bool val = jval.asBool();
+          return param.set( param_id, val );
+        }
 
         //else if ( jval.isString() ) 
-          //val = jval.asString();
+        //{
+          //string val = jval.asString();
+          //return param.set( param_id, val );
+        //}
 
-        //val = jsonp.get_value<T>(jval);
-
-        return param.set( param_id, val );
       } 
 
     };

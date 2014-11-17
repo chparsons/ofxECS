@@ -10,9 +10,6 @@ class ECS
 
     ECS(){};
 
-    //TODO add set FPS method
-    static const float FPS = 60.0f;
-
     void init()
     {
       sm = _world.getSystemManager();
@@ -28,7 +25,7 @@ class ECS
       //deciseconds ???
       //github.com/vinova/Artemis-Cpp
       //_world.setDelta( 0.0016f ); 
-      _world.setDelta( 1.0f/FPS*0.1f ); 
+      _world.setDelta( 1.0f/ofGetFrameRate()*0.1f ); 
       int len = _systems.size();
       for (int i = 0; i < len; i++)
         _systems[i]->process();
@@ -38,12 +35,12 @@ class ECS
     {
       int len = _systems.size();
       for (int i = 0; i < len; i++)
+        //_render_systems[i]->process();
         _systems[i]->render();
     };
 
     void init_systems()
     {
-      //init_default_systems();
       sm->initializeAll();
     };
 
@@ -51,6 +48,11 @@ class ECS
     {
       _systems.push_back( (ECSsystem*)sm->setSystem( sys ) );
     }; 
+
+    //void add_render_system( ECSsystem* sys )
+    //{
+      //_render_systems.push_back( (ECSsystem*)sm->setSystem( sys ) );
+    //};
 
     artemis::EntityManager* entities()
     {
@@ -93,6 +95,8 @@ class ECS
     artemis::TagManager *tm;
 
     vector<ECSsystem*> _systems; 
+    //vector<ECSsystem*> _render_systems; 
 
+    static float _fps;
 };
 

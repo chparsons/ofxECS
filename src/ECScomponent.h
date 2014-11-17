@@ -15,7 +15,7 @@ class ECScomponent : public artemis::Component
 
     virtual ~ECScomponent() 
     {
-      ecs_params = NULL; 
+      _ecs_params = NULL; 
     };
 
     string id;
@@ -24,19 +24,19 @@ class ECScomponent : public artemis::Component
     {
       _entity_id = e_id;
       _data = d;
-      ecs_params = p;
+      _ecs_params = p;
     }; 
 
   protected:
 
     string _entity_id; //container
     Json::Value _data;
-    ECSparams* ecs_params;
+    ECSparams* _ecs_params;
 
     template<typename T>
     void param( ofParameter<T>& _param, string data_key ) 
     {
-      if ( ecs_params == NULL )
+      if ( _ecs_params == NULL )
       {
         ofLogError("ECScomponent") << "param() set data for component [" << data_key << "] ECSparam is NULL";
         return;
@@ -46,7 +46,7 @@ class ECScomponent : public artemis::Component
 
       const Json::Value& value = _data[data_key]; 
 
-      ecs_params->add( param_id, value, _param );
+      _ecs_params->add( param_id, value, _param );
     }; 
 
 };

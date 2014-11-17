@@ -22,7 +22,7 @@ namespace artemis {
 			virtual bool checkProcessing();
 
       virtual void render_entity(Entity &e) = 0;
-			virtual void render_entities(ImmutableBag<Entity*> & bag);
+      virtual void render_entities(ImmutableBag<Entity*> & bag);
 
 	};
 };

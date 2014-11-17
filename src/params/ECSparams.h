@@ -41,11 +41,11 @@ class ECSparams
     void add( string param_id, const Json::Value& jval, ofParameter<T>& param )
     {
 
-      if ( params.contains( param_id ) )
-      {
-        ofLogError("ECSparams") << "::add() params group already contains a param with id [" << param_id << "]";
-        return;
-      }
+      //if ( params.contains( param_id ) )
+      //{
+        //ofLogError("ECSparams") << "add() params group already contains a param with id [" << param_id << "]";
+        //return;
+      //}
 
       params.add( set( param, param_id, jval ) );
     };  

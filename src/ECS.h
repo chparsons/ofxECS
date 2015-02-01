@@ -15,23 +15,43 @@ class ECS
       sm = _world.getSystemManager();
       em = _world.getEntityManager();
       tm = _world.getTagManager();
+
+      _fps = 30.0;
+      micros_per_update = 1000000.0 / _fps;
     };
 
     void update()
     {
-      //ofLogNotice("ECS") << "--update";
-      //TODO game/sim loop accum
-      _world.loopStart();
-      //deciseconds ???
-      //github.com/vinova/Artemis-Cpp
-      //_world.setDelta( 0.0016f ); 
-      _world.setDelta( 1.0f/ofGetFrameRate()*0.1f ); 
-      int len = _systems.size();
-      for (int i = 0; i < len; i++)
-        _systems[i]->process();
+      unsigned long long now = ofGetElapsedTimeMicros();
+      unsigned long long dt = now - prev;
+      prev = now;
+      lag += dt;
+
+      //ofLog() << "update " 
+        //<< ", target millis " << micros_per_update * _MICROS_TO_MILLIS
+        //<< ", dt " << dt;
+
+      while ( lag >= micros_per_update )
+      {
+        unsigned long long dt_proc = now - prev_proc;
+        prev_proc = now;
+
+        //ofLog() << "__proc"
+          //<< ", lag " << lag
+          //<< ", dt " << dt_proc;
+
+        _world.loopStart();
+        _world.setDelta( dt_proc * _MICROS_TO_MILLIS ); 
+
+        int len = _systems.size();
+        for (int i = 0; i < len; i++)
+          _systems[i]->process();
+
+        lag -= micros_per_update;
+      }
     };
 
-    void render()
+    void render() //at variable framerate
     {
       int len = _systems.size();
       for (int i = 0; i < len; i++)
@@ -87,6 +107,11 @@ class ECS
       return &_world;
     };
 
+    float fps() 
+    {
+      return _fps;
+    };
+
   private: 
 
     artemis::World _world;
@@ -97,6 +122,9 @@ class ECS
     vector<ECSsystem*> _systems; 
     //vector<ECSsystem*> _render_systems; 
 
-    static float _fps;
+    //time in micros
+    unsigned long long prev, lag, prev_proc;
+    float _fps, micros_per_update;
+    static const double _MICROS_TO_MILLIS = .001;
 };
 

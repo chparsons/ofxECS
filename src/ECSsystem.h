@@ -22,11 +22,35 @@ class ECSsystem : public artemis::EntityProcessingSystem
       return ((TSystem*)world->getSystemManager()->getSystem<TSystem>());
     };
 
+    template<typename TSystem>
+    TSystem* require_system()
+    {
+      TSystem* sys = system<TSystem>();
+      if ( sys == NULL ) 
+      {
+        ofLogFatalError("ECSsystem") << "System [" << typeid(this).name() << "] requires a System [" << typeid(TSystem).name() << "]";
+        ofExit();
+      }
+      return sys;
+    };
+
     template<typename TComponent>
     TComponent* component(string tag)
     {
       return ((TComponent*)world->getTagManager()->getEntity( tag ).getComponent<TComponent>());
     };
+
+    template<typename TComponent>
+    TComponent* require_component(string tag)
+    {
+      TComponent* comp = component<TComponent>(tag);
+      if ( comp == NULL ) 
+      {
+        ofLogFatalError("ECSsystem") << "System [" << typeid(this).name() << "] requires a Component [" << typeid(TComponent).name() << "] on entity tagged [" << tag << "]";
+        ofExit();
+      }
+      return comp;
+    }; 
 
     artemis::EntityManager* entities()
     {

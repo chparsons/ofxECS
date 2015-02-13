@@ -29,7 +29,7 @@ class ECSsystem : public artemis::EntityProcessingSystem
       if ( sys == NULL ) 
       {
         ofLogFatalError("ECSsystem") << "System [" << typeid(this).name() << "] requires a System [" << typeid(TSystem).name() << "]";
-        ofExit();
+        ofExit(); //TODO
       }
       return sys;
     };
@@ -47,7 +47,7 @@ class ECSsystem : public artemis::EntityProcessingSystem
       if ( comp == NULL ) 
       {
         ofLogFatalError("ECSsystem") << "System [" << typeid(this).name() << "] requires a Component [" << typeid(TComponent).name() << "] on entity tagged [" << tag << "]";
-        ofExit();
+        ofExit(); //TODO
       }
       return comp;
     }; 

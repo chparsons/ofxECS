@@ -125,6 +125,6 @@ class ECS
     //time in micros
     unsigned long long prev, lag, prev_proc;
     float _fps, micros_per_update;
-    static const double _MICROS_TO_MILLIS = .001;
+    const double _MICROS_TO_MILLIS = .001;
 };
 

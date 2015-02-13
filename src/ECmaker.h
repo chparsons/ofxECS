@@ -40,7 +40,7 @@ class ECmaker
 
       //si queremos multiples entidades
       //del mismo tipo pasar acá 
-      //un e_id que tenga uuid
+      //un e_id que sea uuid
       if ( has_entity( e_id ) )
       {
         artemis::Entity& e = world->getEntityManager()->getEntity( entities_ids[ e_id ] );

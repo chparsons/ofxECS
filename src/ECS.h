@@ -3,8 +3,9 @@
 #include "ofMain.h"
 #include <Artemis/Artemis.h>
 #include "ECSsystem.h"
+#include "ECSgetter.h"
 
-class ECS
+class ECS : public ECSgetter
 {
   public:
 
@@ -74,35 +75,7 @@ class ECS
       //_render_systems.push_back( (ECSsystem*)sm->setSystem( sys ) );
     //};
 
-    artemis::EntityManager* entities()
-    {
-      return em;
-    };
-
-    artemis::SystemManager* systems()
-    {
-      return sm;
-    };
-
-    artemis::TagManager* tags()
-    {
-      return tm;
-    };
-
-    template<typename TSystem>
-    TSystem* system()
-    {
-      return ((TSystem*)sm->getSystem<TSystem>());
-    };
-
-    //get component by entity tag
-    template<typename TComponent>
-    TComponent* component(string tag)
-    {
-      return ((TComponent*)tm->getEntity( tag ).getComponent<TComponent>());
-    };
-
-    artemis::World* world()
+    artemis::World* get_world()
     {
       return &_world;
     };

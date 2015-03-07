@@ -11,11 +11,11 @@ namespace artemis {
 			{processEntity(*bag.get(i));}
 	}
 
-  void EntityProcessingSystem::render_entities(ImmutableBag<Entity*>& bag) 
+  void EntityProcessingSystem::renderEntities(ImmutableBag<Entity*>& bag) 
   {
     for(int i=0; i < bag.getCount(); i++) 
     {
-      render_entity( *bag.get(i) );
+      renderEntity( *bag.get(i) );
     }
   }
 

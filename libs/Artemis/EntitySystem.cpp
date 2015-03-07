@@ -37,7 +37,7 @@ namespace artemis {
 
   void EntitySystem::render() 
   {
-    render_entities(actives);
+    renderEntities(actives);
   };
 
 	void EntitySystem::setWorld(World *world) {

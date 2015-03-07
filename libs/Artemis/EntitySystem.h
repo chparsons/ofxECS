@@ -60,7 +60,7 @@ namespace artemis {
     virtual void processEntities(ImmutableBag<Entity*> & bag) = 0;
     virtual bool checkProcessing() = 0;
 
-    virtual void render_entities(ImmutableBag<Entity*> & bag) = 0;
+    virtual void renderEntities(ImmutableBag<Entity*> & bag) = 0;
 
   private:
     std::bitset<BITSIZE> systemBit;

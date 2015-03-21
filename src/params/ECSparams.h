@@ -11,13 +11,9 @@ class ECSparams
     ECSparams(){};
     ~ECSparams() { dispose(); };
 
-    //TODO 
-    //void init( Json::Value& settings )
-    void init()
+    void init( int receiver_port )
     {
-      int app_port = 6667;
-
-      receiver.setup( app_port );
+      receiver.setup( receiver_port );
 
       ofAddListener( ofEvents().update, this, &ECSparams::update, OF_EVENT_ORDER_BEFORE_APP );
     };
@@ -32,8 +28,7 @@ class ECSparams
       int len = params.size();
       for ( int i = 0; i < len; i++ )
       {
-        bool updated = receiver.get( "/"+params.getName(i), params.get(i) );
-        //if (updated) ofLogNotice("ECSparams") << "----- updated param " << params.getName(i) << " = " << params.get(i);
+        bool updated = receiver.get( "/"+params.getName(i), params.get(i), true );
       }
     };
 
@@ -76,13 +71,6 @@ class ECSparams
           return param.set(param_id, val, min, max);
         } 
 
-        else if ( jval[0].isBool() ) 
-        {
-          bool val = jval[0].asBool();
-          bool  min = jval[1].asBool();
-          bool  max = jval[2].asBool();
-          return param.set(param_id, val, min, max);
-        }
       }
 
       else

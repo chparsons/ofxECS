@@ -21,6 +21,12 @@ class ECSparamsSender
       sender = NULL;
     };
 
+    void send()
+    {
+      for ( map< string, shared_ptr<oscParamSenderAbstract> >::iterator it = osc_params.begin(); it != osc_params.end(); ++it )
+        it->second->send();
+    };
+
     void add( string param_id, const Json::Value& jval, ofParameterGroup& params ) 
     {
 
@@ -65,7 +71,7 @@ class ECSparamsSender
         {
           shared_ptr< oscParamSender<bool> > osc_param( new oscParamSender<bool>() );
           bool val = jval.asBool();
-          osc_param->set(sender, param_id, val);
+          osc_param->set( sender, param_id, val );
           params.add( osc_param->param() );
           osc_params[param_id] = osc_param;
         } 
@@ -74,7 +80,7 @@ class ECSparamsSender
         //{
           //shared_ptr< oscParamSender<string> > osc_param( new oscParamSender<string>() );
           //string val = jval.asString();
-          //osc_param->set(sender, param_id, val);
+          //osc_param->set( sender, param_id, val );
           //params.add( osc_param->param() );
           //osc_params[param_id] = osc_param;
         //}

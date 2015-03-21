@@ -12,13 +12,11 @@ class ECmaker
     ECmaker(){};
     ~ECmaker(){};
 
-    void init( artemis::World* world, ComponentFactory* component_factory, Json::Value _entities )
+    void init( artemis::World* world, ComponentFactory* component_factory, Json::Value _entities, int receiver_port )
     {
       this->world = world;
       this->component_factory = component_factory;
-      //TODO 
-      //init( Json::Value& settings )
-      params().init();
+      params().init( receiver_port );
       entities_cfg = parse_config( _entities );
     }
 
@@ -44,7 +42,7 @@ class ECmaker
       if ( has_entity( e_id ) )
       {
         artemis::Entity& e = world->getEntityManager()->getEntity( entities_ids[ e_id ] );
-        ofLogNotice("ECmaker") << "make_entity by id/tag " << e_id << ": entity " << e.getId() << " already exists"; 
+        ofLogWarning("ECmaker") << "make_entity by id/tag " << e_id << ": entity " << e.getId() << " already exists"; 
         return &e;
       }
 
@@ -52,7 +50,7 @@ class ECmaker
 
       if ( ! comps_cfg.size() )
       {
-        ofLogNotice("ECmaker") << "make_entity by id/tag " << e_id << ": components config not found"; 
+        ofLogWarning("ECmaker") << "make_entity by id/tag " << e_id << ": components config not found"; 
         return NULL;
       }
 
@@ -72,7 +70,7 @@ class ECmaker
 
       if ( ! components.size() )
       {
-        ofLogNotice("ECmaker") << "make_entity by id/tag " << e_id << ": components ids not found"; 
+        ofLogWarning("ECmaker") << "make_entity by id/tag " << e_id << ": components ids not found"; 
         return NULL;
       }
 
@@ -94,7 +92,7 @@ class ECmaker
     {
       if ( ! has_entity( e_id ) )
       {
-        ofLogNotice("ECmaker") << "remove_entity by id/tag " << e_id << ": entity not found"; 
+        ofLogWarning("ECmaker") << "remove_entity by id/tag " << e_id << ": entity not found"; 
         return;
       }
 

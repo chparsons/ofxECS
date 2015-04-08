@@ -30,11 +30,12 @@ class ECSparamsSender
     void add( string param_id, const Json::Value& jval, ofParameterGroup& params ) 
     {
 
-      if ( params.contains( param_id ) )
-      {
-        ofLogError("ECSparamsSender") << "::add() params group already contains a param with id [" << param_id << "]";
-        return;
-      }
+      bool inited = params.contains( param_id );
+      //if ( params.contains( param_id ) )
+      //{
+        //ofLogError("ECSparamsSender") << "::add() params group already contains a param with id [" << param_id << "]";
+        //return;
+      //}
 
       if ( sender == NULL ) 
       {
@@ -53,13 +54,23 @@ class ECSparamsSender
 
         if ( jval[0].isNumeric() ) 
         {
-          shared_ptr< oscParamSender<float> > osc_param( new oscParamSender<float>() );
           float val = jval[0].asFloat();
           float min = jval[1].asFloat();
           float max = jval[2].asFloat();
-          osc_param->set( sender, param_id, val, min, max );
-          params.add( osc_param->param() );
-          osc_params[param_id] = osc_param;
+
+          if (inited) //send
+          {
+            osc_params[param_id]->param().cast<float>().set( param_id, val, min, max );
+            osc_params[param_id]->send();
+          }
+
+          else //init
+          {
+            shared_ptr< oscParamSender<float> > osc_param( new oscParamSender<float>() );
+            osc_param->set( param_id, val, min, max );
+            params.add( osc_param->init( sender ) );
+            osc_params[param_id] = osc_param;
+          }
         }
       }
 
@@ -69,18 +80,29 @@ class ECSparamsSender
 
         if ( jval.isBool() ) 
         {
-          shared_ptr< oscParamSender<bool> > osc_param( new oscParamSender<bool>() );
           bool val = jval.asBool();
-          osc_param->set( sender, param_id, val );
-          params.add( osc_param->param() );
-          osc_params[param_id] = osc_param;
+
+          if (inited) //send
+          {
+            osc_params[param_id]->param().cast<bool>().set( param_id, val );
+            osc_params[param_id]->send();
+          }
+
+          else //init
+          {
+            shared_ptr< oscParamSender<bool> > osc_param( new oscParamSender<bool>() );
+            osc_param->set( param_id, val );
+            params.add( osc_param->init( sender ) );
+            osc_params[param_id] = osc_param;
+          }
         } 
 
         //else if ( jval.isString() ) 
         //{
           //shared_ptr< oscParamSender<string> > osc_param( new oscParamSender<string>() );
           //string val = jval.asString();
-          //osc_param->set( sender, param_id, val );
+          //osc_param->set( param_id, val );
+          //osc_param->init( sender );
           //params.add( osc_param->param() );
           //osc_params[param_id] = osc_param;
         //}

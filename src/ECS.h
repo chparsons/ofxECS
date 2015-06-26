@@ -16,9 +16,7 @@ class ECS : public ECSgetter
       sm = _world.getSystemManager();
       em = _world.getEntityManager();
       tm = _world.getTagManager();
-
-      _fps = 30.0;
-      micros_per_update = 1000000.0 / _fps;
+      fps(30.0); 
     };
 
     void update()
@@ -34,15 +32,17 @@ class ECS : public ECSgetter
 
       while ( lag >= micros_per_update )
       {
-        unsigned long long dt_proc = now - prev_proc;
+        dt_micros = now - prev_proc;
+        float fA = 0.95; 
+        _dt_micros = (fA*_dt_micros)+((1.0-fA)*dt_micros);
         prev_proc = now;
 
         //ofLog() << "__proc"
           //<< ", lag " << lag
-          //<< ", dt " << dt_proc;
+          //<< ", dt " << dt_micros;
 
         _world.loopStart();
-        _world.setDelta( dt_proc * _MICROS_TO_MILLIS ); 
+        _world.setDelta( dt_micros * _MICROS_TO_MILLIS ); 
 
         int len = _systems.size();
         for (int i = 0; i < len; i++)
@@ -78,11 +78,22 @@ class ECS : public ECSgetter
     artemis::World* get_world()
     {
       return &_world;
+    }; 
+
+    void fps( float v ) 
+    {
+      _fps = v;
+      micros_per_update = 1000000.0/_fps;
     };
 
     float fps() 
     {
       return _fps;
+    };
+
+    float framerate()
+    {
+      return 1000000.0/_dt_micros;
     };
 
   private: 
@@ -96,8 +107,8 @@ class ECS : public ECSgetter
     //vector<ECSsystem*> _render_systems; 
 
     //time in micros
-    unsigned long long prev, lag, prev_proc;
-    float _fps, micros_per_update;
+    unsigned long long prev, lag, prev_proc, dt_micros;
+    float _fps, micros_per_update, _dt_micros; 
     const double _MICROS_TO_MILLIS = .001;
 };
 

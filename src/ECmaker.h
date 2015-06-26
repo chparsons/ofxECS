@@ -34,7 +34,7 @@ class ECmaker
 
     artemis::Entity* make_entity( string e_id )
     {
-      ofLogNotice("ECmaker") << "make_entity by id/tag " << e_id; 
+      ofLogNotice("ECmaker") << "\n" << "make_entity by id/tag " << e_id; 
 
       //si queremos multiples entidades
       //del mismo tipo pasar acá 
@@ -75,7 +75,7 @@ class ECmaker
       }
 
       artemis::Entity& e = world->getEntityManager()->create();
-      ofLogNotice("ECmaker") << "\tentity " << e_id << " made: entity " << e.getId(); 
+      ofLogNotice("ECmaker") << "\t\t" << "entity " << e_id << " made: entity " << e.getId(); 
 
       for ( int i = 0; i < components.size(); i++ )
         e.addComponent( components[i] );

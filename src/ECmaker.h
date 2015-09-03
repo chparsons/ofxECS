@@ -42,7 +42,7 @@ class ECmaker
       if ( has_entity( e_id ) )
       {
         artemis::Entity& e = world->getEntityManager()->getEntity( entities_ids[ e_id ] );
-        ofLogWarning("ECmaker") << "make_entity by id/tag " << e_id << ": entity " << e.getId() << " already exists"; 
+        ofLogWarning("ECmaker") << "make_entity by id/tag " << e_id << ": entity already exists (with id: " << e.getId() << ")"; 
         return &e;
       }
 
@@ -103,6 +103,11 @@ class ECmaker
       entities_ids.erase( e_id );
     };
 
+    bool has_entity( string e_id )
+    {
+      return entities_ids.find( e_id ) != entities_ids.end(); 
+    };
+
   private:
 
     //a single params receiver!
@@ -119,12 +124,7 @@ class ECmaker
     map<string,Json::Value> entities_cfg;
 
     //{ tag : id }
-    map< string,int > entities_ids;
-
-    bool has_entity( string e_id )
-    {
-      return entities_ids.find( e_id ) != entities_ids.end(); 
-    };
+    map< string,int > entities_ids; 
 
     map< string,Json::Value > parse_config( Json::Value _entities )
     {

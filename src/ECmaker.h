@@ -32,6 +32,13 @@ class ECmaker
         remove_entity( it->first );
     };
 
+    artemis::Entity* get_entity( string e_id )
+    {
+      if ( ! has_entity( e_id ) )
+        return NULL;
+      return &(world->getEntityManager()->getEntity( entities_ids[ e_id ]) );
+    };
+
     artemis::Entity* make_entity( string e_id )
     {
       ofLogNotice("ECmaker") << "\n" << "make_entity by id/tag " << e_id; 
@@ -39,11 +46,11 @@ class ECmaker
       //si queremos multiples entidades
       //del mismo tipo pasar acá 
       //un e_id que sea uuid
-      if ( has_entity( e_id ) )
+      artemis::Entity* ee = get_entity( e_id );
+      if ( ee != NULL )
       {
-        artemis::Entity& e = world->getEntityManager()->getEntity( entities_ids[ e_id ] );
-        ofLogWarning("ECmaker") << "make_entity by id/tag " << e_id << ": entity already exists (with id: " << e.getId() << ")"; 
-        return &e;
+        ofLogWarning("ECmaker") << "make_entity by id/tag " << e_id << ": entity already exists (with id: " << ee->getId() << ")"; 
+        return ee;
       }
 
       Json::Value comps_cfg = entities_cfg[ e_id ];
@@ -90,15 +97,15 @@ class ECmaker
 
     void remove_entity( string e_id )
     {
-      if ( ! has_entity( e_id ) )
+      artemis::Entity* ee = get_entity( e_id );
+      if ( ee == NULL )
       {
         ofLogWarning("ECmaker") << "remove_entity by id/tag " << e_id << ": entity not found"; 
         return;
       }
 
-      artemis::Entity& e = world->getEntityManager()->getEntity( entities_ids[ e_id ] );
-      ofLogNotice("ECmaker") << "remove_entity by id/tag " << e_id << ": entity " << e.getId(); 
-      world->getEntityManager()->remove( e );
+      ofLogNotice("ECmaker") << "remove_entity by id/tag " << e_id << ": entity " << ee->getId();
+      world->getEntityManager()->remove( *(ee) );
 
       entities_ids.erase( e_id );
     };
